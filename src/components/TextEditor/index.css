@@ -1,0 +1,119 @@
+.main-container {
+  height: 100vh;
+  background-color: #25262c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.text-editor-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1c22;
+  width: 80%;
+  height: 70vh;
+  padding: 30px;
+}
+.left-side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.text-editor-img {
+  height: 300px;
+}
+.heading {
+  color: #ffffff;
+  font-family: roboto;
+}
+.right-side-container {
+  background-color: #25262c;
+  width: 50%;
+  border-radius: 10px;
+  height: 100%;
+  border: 1px solid #334155;
+}
+.font-style-container {
+  padding: 20px;
+  height: 45px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.bold-btn {
+  margin-right: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.italic-btn {
+  margin-right: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.underline-btn {
+  margin-right: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.hr {
+  color: #334155;
+  background-color: #334155;
+  border-color: #334155;
+}
+.textarea-container {
+  height: 80%;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #25262c;
+  border: none;
+  padding: 20px;
+  color: white;
+}
+.textarea-container:hover {
+  border: none;
+}
+.textarea-container:focus {
+  outline: none;
+}
+.unordered-list {
+  list-style: none;
+}
+.bold {
+  font-weight: bold;
+  color: #f1f5f9;
+}
+.italic {
+  font-style: italic;
+  color: #f1f5f9;
+}
+.underline {
+  text-decoration: underline;
+  color: #f1f5f9;
+}
+.italic-icon {
+  color: #f1f5f9;
+}
+.underline-icon {
+  color: #f1f5f9;
+}
+.bold-icon {
+  color: #f1f5f9;
+}
+.italic-icon-2 {
+  color: #faff00;
+}
+.underline-icon-2 {
+  color: #faff00;
+}
+.bold-icon-2 {
+  color: #faff00;
+}
